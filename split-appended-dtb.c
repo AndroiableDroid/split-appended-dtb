@@ -113,7 +113,7 @@ int split(char *kernel_image)
     if (!rc)
     {
         printf("Failed to dump standalone kernel image!\n");
-        goto err;
+//        goto err;
     }
 
     while (!complete)
